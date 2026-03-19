@@ -1,6 +1,6 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { validateTokenSources } from "../../scripts/token-source-validator.mjs";
+import { validateTokenSources } from "./token-source-validator.mjs";
 import {
   ensureCssVariableStructure,
   ensureDirectoryHasFiles,
@@ -15,13 +15,12 @@ import {
   readJsonFile,
   runNodeStep,
   runNpmStep,
-} from "../../scripts/template-prepublish-utils.mjs";
+} from "./template-prepublish-utils.mjs";
 
 const templateRoot = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
   "..",
 );
-const repoRoot = path.resolve(templateRoot, "..");
 
 const expectedTemplate = {
   id: "uniapp-unibest",
@@ -34,8 +33,8 @@ console.log("Running uniapp-unibest prepublish checks...");
 
 runNodeStep(
   "template contract",
-  path.join(repoRoot, "scripts", "check-template-contract.mjs"),
-  repoRoot,
+  path.join(templateRoot, "scripts", "check-template-contract.mjs"),
+  templateRoot,
 );
 
 ensureTemplateConfigShape(config, expectedTemplate);
@@ -87,12 +86,12 @@ ensureScssTokenStructure(templateRoot, "src/theme/tokens.scss", {
 ensureTsTokenStructure(templateRoot, "src/theme/tokens.ts", {
   requiredTopLevelKeys: ["global", "theme"],
   requiredNestedMarkers: [
-    "color:",
-    "space:",
-    "radius:",
-    "shadow:",
-    "typography:",
-    "brandDefault:",
+    "color",
+    "space",
+    "radius",
+    "shadow",
+    "typography",
+    "brandDefault",
   ],
 });
 ensureStructuredMapping(templateRoot, "src/theme/wot-theme.scss", {

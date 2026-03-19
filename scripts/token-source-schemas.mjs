@@ -85,7 +85,7 @@ const sharedCategoryRules = {
         },
         {
           file: "src/theme/tokens.ts",
-          markers: ['"typography"', '"family"', '"size"'],
+          markers: ["typography", "family", "size"],
         },
       ],
     },
@@ -94,7 +94,7 @@ const sharedCategoryRules = {
       artifactChecks: [
         { file: "src/theme/tokens.css", markers: ["--global-space-"] },
         { file: "src/theme/tokens.scss", markers: ["$global-space-"] },
-        { file: "src/theme/tokens.ts", markers: ['"space"'] },
+        { file: "src/theme/tokens.ts", markers: ["space"] },
       ],
     },
     {
@@ -102,7 +102,7 @@ const sharedCategoryRules = {
       artifactChecks: [
         { file: "src/theme/tokens.css", markers: ["--global-radius-"] },
         { file: "src/theme/tokens.scss", markers: ["$global-radius-"] },
-        { file: "src/theme/tokens.ts", markers: ['"radius"'] },
+        { file: "src/theme/tokens.ts", markers: ["radius"] },
       ],
     },
     {
@@ -110,7 +110,7 @@ const sharedCategoryRules = {
       artifactChecks: [
         { file: "src/theme/tokens.css", markers: ["--global-shadow-"] },
         { file: "src/theme/tokens.scss", markers: ["$global-shadow-"] },
-        { file: "src/theme/tokens.ts", markers: ['"shadow"'] },
+        { file: "src/theme/tokens.ts", markers: ["shadow"] },
       ],
     },
     {
@@ -166,7 +166,7 @@ export const templateTokenSchemas = {
         "$global-typography-",
         "$theme-brand-default-",
       ],
-      tokensTs: ['"global"', '"theme"', '"radius"', '"shadow"', '"typography"'],
+      tokensTs: ["global", "theme", "radius", "shadow", "typography"],
       lightTheme: ["--theme-light-color-"],
       darkTheme: ["--theme-dark-color-"],
       brandTheme: ["--theme-brand-default-"],
@@ -201,7 +201,7 @@ export const templateTokenSchemas = {
         "$global-typography-",
         "$theme-brand-default-",
       ],
-      tokensTs: ['"global"', '"theme"', '"radius"', '"shadow"', '"typography"'],
+      tokensTs: ["global", "theme", "radius", "shadow", "typography"],
       lightTheme: ["--theme-light-color-"],
       darkTheme: ["--theme-dark-color-"],
       brandTheme: ["--theme-brand-default-"],
