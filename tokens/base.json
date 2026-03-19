@@ -1,0 +1,153 @@
+{
+  "global": {
+    "color": {
+      "palette": {
+        "brand": {
+          "50": {
+            "value": "#eef9ff",
+            "description": "Reference source: Radix Colors sky/sand blend."
+          },
+          "100": {
+            "value": "#d7eeff",
+            "description": "Reference source: Radix Colors."
+          },
+          "500": {
+            "value": "#2f6fed",
+            "description": "Reference source: Radix Colors accent scale."
+          },
+          "600": {
+            "value": "#2459bf",
+            "description": "Reference source: Radix Colors accent scale."
+          },
+          "700": {
+            "value": "#1d478f",
+            "description": "Reference source: Radix Colors accent scale."
+          }
+        },
+        "neutral": {
+          "0": {
+            "value": "#ffffff",
+            "description": "Reference source: Radix Colors slate."
+          },
+          "50": {
+            "value": "#f7f9fc",
+            "description": "Reference source: Radix Colors slate."
+          },
+          "100": {
+            "value": "#edf2f7",
+            "description": "Reference source: Radix Colors slate."
+          },
+          "700": {
+            "value": "#334155",
+            "description": "Reference source: Radix Colors slate."
+          },
+          "900": {
+            "value": "#0f172a",
+            "description": "Reference source: Radix Colors slate."
+          }
+        },
+        "success": {
+          "500": {
+            "value": "#16a34a",
+            "description": "Reference source: Radix Colors green."
+          }
+        }
+      }
+    },
+    "space": {
+      "page": {
+        "value": "32rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "sectionGap": {
+        "value": "24rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "heroPaddingVertical": {
+        "value": "40rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "heroPaddingHorizontal": {
+        "value": "32rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "heroGap": {
+        "value": "16rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "cardListGap": {
+        "value": "20rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "cardPaddingVertical": {
+        "value": "28rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "cardPaddingHorizontal": {
+        "value": "24rpx",
+        "description": "Reference source: Open Props spacing."
+      },
+      "cardGap": {
+        "value": "12rpx",
+        "description": "Reference source: Open Props spacing."
+      }
+    },
+    "radius": {
+      "card": {
+        "value": "24rpx",
+        "description": "Reference source: Open Props radius."
+      },
+      "pill": {
+        "value": "999rpx",
+        "description": "Reference source: Open Props radius."
+      }
+    },
+    "shadow": {
+      "card": {
+        "value": "0 16px 40px rgba(15, 23, 42, 0.08)",
+        "description": "Reference source: Open Props shadow."
+      }
+    },
+    "typography": {
+      "family": {
+        "sans": {
+          "value": "\"Inter\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+          "description": "Platform-owned type stack curated for mini-program reading comfort."
+        }
+      },
+      "size": {
+        "eyebrow": { "value": "24rpx" },
+        "title": { "value": "40rpx" },
+        "heading": { "value": "28rpx" },
+        "body": { "value": "28rpx" },
+        "bodySm": { "value": "24rpx" }
+      },
+      "lineHeight": {
+        "tight": { "value": "1.2" },
+        "body": { "value": "1.6" }
+      },
+      "weight": {
+        "medium": { "value": "500" },
+        "semibold": { "value": "600" },
+        "bold": { "value": "700" }
+      },
+      "letterSpacing": {
+        "tight": { "value": "-0.01em" },
+        "wide": { "value": "0.04em" }
+      }
+    },
+    "motion": {
+      "easeStandard": {
+        "value": "cubic-bezier(0.2, 0, 0, 1)",
+        "description": "Reference source: Open Props easing."
+      }
+    },
+    "icon": {
+      "size": {
+        "sm": { "value": "28rpx" },
+        "md": { "value": "36rpx" },
+        "lg": { "value": "48rpx" }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+:root,
+page,
+[data-brand="default"] {
+  --theme-brand-default-brand-accent-base: #2f6fed;
+  --theme-brand-default-brand-accent-emphasis: #2459bf;
+  --theme-brand-default-brand-accent-soft: #d7eeff;
+  --theme-brand-default-icon-default: #0f172a;
+  --theme-brand-default-icon-brand: #2f6fed;
+  --theme-brand-default-component-wot-theme: #2f6fed;
+  --theme-brand-default-component-wot-theme-text: #ffffff;
+  --theme-brand-default-component-wot-success: #16a34a;
+}

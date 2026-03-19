@@ -1,0 +1,144 @@
+{
+  "templateContractVersion": 1,
+  "id": "uniapp-unibest",
+  "label": "uniapp-unibest",
+  "title": "unibest Core Template",
+  "description": "Uses uni-app, unibest-core, Vue 3, TypeScript, UnoCSS, Wot Design Uni, and the WeChat mini-program target.",
+  "constitutionPath": "docs/constitution/uni-app-unibest-core.md",
+  "projectType": "uni-app",
+  "runtime": "uni-app",
+  "framework": "Vue 3",
+  "stack": [
+    "uni-app",
+    "unibest",
+    "Vue 3",
+    "TypeScript",
+    "Vite",
+    "UnoCSS",
+    "Wot Design Uni",
+    "Pinia",
+    "Style Dictionary",
+    "Tokens Studio",
+    "Iconify",
+    "Radix Colors",
+    "Open Props"
+  ],
+  "targetPlatforms": ["mp-weixin", "h5"],
+  "sourceType": "local-directory",
+  "templatePath": "scaffold",
+  "source": {
+    "type": "local-directory",
+    "localPath": "scaffold"
+  },
+  "starterRepository": {
+    "owner": "dengliangliang",
+    "repo": "miniapp-builder-template-uniapp-unibest",
+    "branch": "main",
+    "url": "https://github.com/dengliangliang/miniapp-builder-template-uniapp-unibest"
+  },
+  "defaultCommands": {
+    "install": "npm install",
+    "dev": "npm run dev:h5 -- --port {{port}}",
+    "build": "npm run build:mp-weixin",
+    "typecheck": "npm run typecheck",
+    "preview": "npm run dev:h5 -- --port {{port}}"
+  },
+  "protectedFiles": [
+    "manifest.config.ts",
+    "pages.config.ts",
+    "package.json",
+    "vite.config.mjs",
+    "uno.config.mjs",
+    "tsconfig.json",
+    "style-dictionary.config.mjs",
+    "tokens/base.json",
+    "tokens/light.json",
+    "tokens/dark.json",
+    "tokens/brand-default.json",
+    "scripts/build-icons.mjs",
+    "scripts/build-uni.mjs",
+    "scripts/build-uno.mjs",
+    "scripts/starter-gate.mjs",
+    "src/theme/platform-theme.ts",
+    "src/theme/wot-theme.scss",
+    "src/theme/icons/manifest.ts",
+    "template.config.json"
+  ],
+  "envRequirements": [
+    { "tool": "node", "required": true, "minVersion": "20.0.0" },
+    { "tool": "pnpm", "required": false, "minVersion": "9.0.0" },
+    { "tool": "npm", "required": true, "minVersion": "10.0.0" },
+    {
+      "tool": "wechat-devtools",
+      "required": false,
+      "notes": "Needed for opening the project in WeChat DevTools from local mode."
+    }
+  ],
+  "promptProfile": "constitution/uni-app-unibest-core",
+  "validatorProfile": "uni-app-unibest-core",
+  "themeProfile": "style-dictionary-iconify-wot",
+  "capabilities": {
+    "localDesktop": true,
+    "localBridge": true,
+    "cloudE2B": true,
+    "preview": true,
+    "screenshot": true,
+    "repairLoop": true
+  },
+  "validation": {
+    "requiredFiles": [
+      "package.json",
+      "vite.config.mjs",
+      "uno.config.mjs",
+      "pages.config.ts",
+      "manifest.config.ts",
+      "src/main.ts",
+      "src/App.vue",
+      "src/store/index.ts",
+      "src/http/http.ts",
+      "src/http/interceptor.ts",
+      "src/pages/index/index.vue",
+      "src/components/AppIcon.vue",
+      "src/theme/tokens.css",
+      "src/theme/tokens.scss",
+      "src/theme/tokens.ts",
+      "src/theme/platform-theme.ts",
+      "src/theme/themes/light.css",
+      "src/theme/themes/dark.css",
+      "src/theme/themes/brand-default.css",
+      "src/theme/icons/manifest.ts",
+      "scripts/starter-gate.mjs",
+      "template.config.json"
+    ],
+    "requiredDirectories": [
+      "src/pages",
+      "src/store",
+      "src/http",
+      "src/style",
+      "src/theme/themes",
+      "src/static/icons"
+    ],
+    "requiredPageRoutes": ["pages/index/index"],
+    "previewSentinels": [
+      "unibest-core",
+      "Miniapp Builder",
+      "request interceptor",
+      "AppIcon"
+    ],
+    "forbiddenDependencies": [
+      "react",
+      "react-dom",
+      "react-router-dom",
+      "next",
+      "next-themes",
+      "framer-motion",
+      "@radix-ui/react-slot"
+    ],
+    "forbiddenImports": [
+      "react-router-dom",
+      "framer-motion",
+      "@iconify/vue",
+      "lucide-react"
+    ]
+  }
+}

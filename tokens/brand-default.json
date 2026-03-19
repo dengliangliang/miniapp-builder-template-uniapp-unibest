@@ -1,0 +1,24 @@
+{
+  "theme": {
+    "brandDefault": {
+      "brand": {
+        "accent": {
+          "base": { "value": "{global.color.palette.brand.500}" },
+          "emphasis": { "value": "{global.color.palette.brand.600}" },
+          "soft": { "value": "{global.color.palette.brand.100}" }
+        }
+      },
+      "icon": {
+        "default": { "value": "{global.color.palette.neutral.900}" },
+        "brand": { "value": "{global.color.palette.brand.500}" }
+      },
+      "component": {
+        "wot": {
+          "theme": { "value": "{global.color.palette.brand.500}" },
+          "themeText": { "value": "{global.color.palette.neutral.0}" },
+          "success": { "value": "{global.color.palette.success.500}" }
+        }
+      }
+    }
+  }
+}

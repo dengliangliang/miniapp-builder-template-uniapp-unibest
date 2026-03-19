@@ -1,0 +1,7 @@
+[data-theme="dark"] {
+  --theme-dark-color-surface-page: #08111f;
+  --theme-dark-color-surface-card: #102033;
+  --theme-dark-color-text-primary: #f8fafc;
+  --theme-dark-color-text-secondary: #cbd5e1;
+  --theme-dark-color-border-subtle: #1e293b;
+}

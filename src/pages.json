@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "Miniapp Builder"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "Miniapp Builder",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f7f9fc",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^wd-(.*)": "wot-design-uni/components/wd-$1/wd-$1.vue"
+    }
+  }
+}

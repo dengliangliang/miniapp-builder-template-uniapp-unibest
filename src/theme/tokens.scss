@@ -1,0 +1,128 @@
+$global-color-palette-brand-50: #eef9ff;
+$global-color-palette-brand-100: #d7eeff;
+$global-color-palette-brand-500: #2f6fed;
+$global-color-palette-brand-600: #2459bf;
+$global-color-palette-brand-700: #1d478f;
+$global-color-palette-neutral-0: #ffffff;
+$global-color-palette-neutral-50: #f7f9fc;
+$global-color-palette-neutral-100: #edf2f7;
+$global-color-palette-neutral-700: #334155;
+$global-color-palette-neutral-900: #0f172a;
+$global-color-palette-success-500: #16a34a;
+$global-space-page: 32rpx;
+$global-space-section-gap: 24rpx;
+$global-space-hero-padding-vertical: 40rpx;
+$global-space-hero-padding-horizontal: 32rpx;
+$global-space-hero-gap: 16rpx;
+$global-space-card-list-gap: 20rpx;
+$global-space-card-padding-vertical: 28rpx;
+$global-space-card-padding-horizontal: 24rpx;
+$global-space-card-gap: 12rpx;
+$global-radius-card: 24rpx;
+$global-radius-pill: 999rpx;
+$global-shadow-card: 0 16px 40px rgba(15, 23, 42, 0.08);
+$global-typography-family-sans:
+  "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+$global-typography-size-eyebrow: 24rpx;
+$global-typography-size-title: 40rpx;
+$global-typography-size-heading: 28rpx;
+$global-typography-size-body: 28rpx;
+$global-typography-size-body-sm: 24rpx;
+$global-typography-line-height-tight: 1.2;
+$global-typography-line-height-body: 1.6;
+$global-typography-weight-medium: 500;
+$global-typography-weight-semibold: 600;
+$global-typography-weight-bold: 700;
+$global-typography-letter-spacing-tight: -0.01em;
+$global-typography-letter-spacing-wide: 0.04em;
+$global-motion-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+$global-icon-size-sm: 28rpx;
+$global-icon-size-md: 36rpx;
+$global-icon-size-lg: 48rpx;
+$theme-brand-default-brand-accent-base: #2f6fed;
+$theme-brand-default-brand-accent-emphasis: #2459bf;
+$theme-brand-default-brand-accent-soft: #d7eeff;
+$theme-brand-default-icon-default: #0f172a;
+$theme-brand-default-icon-brand: #2f6fed;
+$theme-brand-default-component-wot-theme: #2f6fed;
+$theme-brand-default-component-wot-theme-text: #ffffff;
+$theme-brand-default-component-wot-success: #16a34a;
+$theme-dark-color-surface-page: #08111f;
+$theme-dark-color-surface-card: #102033;
+$theme-dark-color-text-primary: #f8fafc;
+$theme-dark-color-text-secondary: #cbd5e1;
+$theme-dark-color-border-subtle: #1e293b;
+$theme-light-color-surface-page: #f7f9fc;
+$theme-light-color-surface-card: #ffffff;
+$theme-light-color-text-primary: #0f172a;
+$theme-light-color-text-secondary: #334155;
+$theme-light-color-border-subtle: #edf2f7;
+
+$tokens: (
+  "global-color-palette-brand-50": $global-color-palette-brand-50,
+  "global-color-palette-brand-100": $global-color-palette-brand-100,
+  "global-color-palette-brand-500": $global-color-palette-brand-500,
+  "global-color-palette-brand-600": $global-color-palette-brand-600,
+  "global-color-palette-brand-700": $global-color-palette-brand-700,
+  "global-color-palette-neutral-0": $global-color-palette-neutral-0,
+  "global-color-palette-neutral-50": $global-color-palette-neutral-50,
+  "global-color-palette-neutral-100": $global-color-palette-neutral-100,
+  "global-color-palette-neutral-700": $global-color-palette-neutral-700,
+  "global-color-palette-neutral-900": $global-color-palette-neutral-900,
+  "global-color-palette-success-500": $global-color-palette-success-500,
+  "global-space-page": $global-space-page,
+  "global-space-section-gap": $global-space-section-gap,
+  "global-space-hero-padding-vertical": $global-space-hero-padding-vertical,
+  "global-space-hero-padding-horizontal": $global-space-hero-padding-horizontal,
+  "global-space-hero-gap": $global-space-hero-gap,
+  "global-space-card-list-gap": $global-space-card-list-gap,
+  "global-space-card-padding-vertical": $global-space-card-padding-vertical,
+  "global-space-card-padding-horizontal": $global-space-card-padding-horizontal,
+  "global-space-card-gap": $global-space-card-gap,
+  "global-radius-card": $global-radius-card,
+  "global-radius-pill": $global-radius-pill,
+  "global-shadow-card": $global-shadow-card,
+  "global-typography-family-sans": $global-typography-family-sans,
+  "global-typography-size-eyebrow": $global-typography-size-eyebrow,
+  "global-typography-size-title": $global-typography-size-title,
+  "global-typography-size-heading": $global-typography-size-heading,
+  "global-typography-size-body": $global-typography-size-body,
+  "global-typography-size-body-sm": $global-typography-size-body-sm,
+  "global-typography-line-height-tight": $global-typography-line-height-tight,
+  "global-typography-line-height-body": $global-typography-line-height-body,
+  "global-typography-weight-medium": $global-typography-weight-medium,
+  "global-typography-weight-semibold": $global-typography-weight-semibold,
+  "global-typography-weight-bold": $global-typography-weight-bold,
+  "global-typography-letter-spacing-tight":
+    $global-typography-letter-spacing-tight,
+  "global-typography-letter-spacing-wide":
+    $global-typography-letter-spacing-wide,
+  "global-motion-ease-standard": $global-motion-ease-standard,
+  "global-icon-size-sm": $global-icon-size-sm,
+  "global-icon-size-md": $global-icon-size-md,
+  "global-icon-size-lg": $global-icon-size-lg,
+  "theme-brand-default-brand-accent-base":
+    $theme-brand-default-brand-accent-base,
+  "theme-brand-default-brand-accent-emphasis":
+    $theme-brand-default-brand-accent-emphasis,
+  "theme-brand-default-brand-accent-soft":
+    $theme-brand-default-brand-accent-soft,
+  "theme-brand-default-icon-default": $theme-brand-default-icon-default,
+  "theme-brand-default-icon-brand": $theme-brand-default-icon-brand,
+  "theme-brand-default-component-wot-theme":
+    $theme-brand-default-component-wot-theme,
+  "theme-brand-default-component-wot-theme-text":
+    $theme-brand-default-component-wot-theme-text,
+  "theme-brand-default-component-wot-success":
+    $theme-brand-default-component-wot-success,
+  "theme-dark-color-surface-page": $theme-dark-color-surface-page,
+  "theme-dark-color-surface-card": $theme-dark-color-surface-card,
+  "theme-dark-color-text-primary": $theme-dark-color-text-primary,
+  "theme-dark-color-text-secondary": $theme-dark-color-text-secondary,
+  "theme-dark-color-border-subtle": $theme-dark-color-border-subtle,
+  "theme-light-color-surface-page": $theme-light-color-surface-page,
+  "theme-light-color-surface-card": $theme-light-color-surface-card,
+  "theme-light-color-text-primary": $theme-light-color-text-primary,
+  "theme-light-color-text-secondary": $theme-light-color-text-secondary,
+  "theme-light-color-border-subtle": $theme-light-color-border-subtle,
+);

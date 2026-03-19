@@ -1,0 +1,19 @@
+{
+  "theme": {
+    "light": {
+      "color": {
+        "surface": {
+          "page": { "value": "{global.color.palette.neutral.50}" },
+          "card": { "value": "{global.color.palette.neutral.0}" }
+        },
+        "text": {
+          "primary": { "value": "{global.color.palette.neutral.900}" },
+          "secondary": { "value": "{global.color.palette.neutral.700}" }
+        },
+        "border": {
+          "subtle": { "value": "{global.color.palette.neutral.100}" }
+        }
+      }
+    }
+  }
+}

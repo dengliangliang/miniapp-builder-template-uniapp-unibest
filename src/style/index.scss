@@ -1,0 +1,13 @@
+@import "@/theme/tokens.scss";
+
+:root,
+page {
+  color: var(--theme-light-color-text-primary);
+  background: var(--theme-light-color-surface-page);
+}
+
+.surface-card {
+  background: var(--theme-light-color-surface-card);
+  border-radius: $global-radius-card;
+  box-shadow: $global-shadow-card;
+}

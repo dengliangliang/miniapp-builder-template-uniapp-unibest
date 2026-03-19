@@ -1,0 +1,25 @@
+import { defineManifestConfig } from "@uni-helper/vite-plugin-uni-manifest";
+
+export default defineManifestConfig({
+  name: "miniapp-builder-demo",
+  appid: "",
+  description: "unibest-core starter for miniapp-builder",
+  versionName: "1.0.0",
+  versionCode: "100",
+  transformPx: false,
+  h5: {
+    router: {
+      base: "/",
+    },
+  },
+  "mp-weixin": {
+    appid: "",
+    setting: {
+      urlCheck: false,
+      es6: true,
+      minified: true,
+    },
+    usingComponents: true,
+  },
+  vueVersion: "3",
+});

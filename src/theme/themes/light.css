@@ -1,0 +1,9 @@
+:root,
+page,
+[data-theme="light"] {
+  --theme-light-color-surface-page: #f7f9fc;
+  --theme-light-color-surface-card: #ffffff;
+  --theme-light-color-text-primary: #0f172a;
+  --theme-light-color-text-secondary: #334155;
+  --theme-light-color-border-subtle: #edf2f7;
+}

@@ -1,0 +1,13 @@
+name: Starter Gate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  starter-gate:
+    uses: dengliangliang/miniapp-builder-workflows/.github/workflows/starter-template-gate.yml@main
+    with:
+      target: uniapp-unibest

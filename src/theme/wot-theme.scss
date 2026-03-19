@@ -1,0 +1,13 @@
+:root,
+page {
+  --wot-color-theme: var(--theme-brand-default-component-wot-theme);
+  --wot-color-text: var(--theme-light-color-text-primary);
+  --wot-color-content: var(--theme-light-color-text-secondary);
+  --wot-color-success: var(--theme-brand-default-component-wot-success);
+  --wot-button-primary-bg-color: var(--theme-brand-default-component-wot-theme);
+  --wot-button-primary-border-color: var(
+    --theme-brand-default-component-wot-theme
+  );
+  --wot-cell-group-radius: var(--global-radius-card);
+  --wot-popup-border-radius: var(--global-radius-card);
+}
